@@ -4,8 +4,8 @@
     "private": true,
     "scripts": {
         "start": "node ./bin/www",
-        "build": "parcel build template/index.html --out-dir public",
-        "dev": "SET NODE_ENV=development&& nodemon ./bin/www"
+        "build": "parcel build ./src/template/index.html --out-dir public",
+        "dev": "SET NODE_ENV=development&& node ./bin/www"
     },
     "dependencies": {
         "cookie-parser": "~1.4.4",

@@ -1,7 +1,7 @@
 const Bundler = require('parcel-bundler');
 const path = require('path');
 
-const entryFiles = path.join(__dirname, './template/index.html');
+const entryFiles = path.join(__dirname, './src/template/index.html');
 
 const options = {
     outDir: './public', // The out directory to put the build files in, defaults to dist
